@@ -31,7 +31,7 @@ starship init fish | source
 #GIT bare repository
 
 alias dfbu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias yazi='/home/ehsan/yazi/target/release/yazi'
 #----------------- ALIASES END ---------------
 
 
