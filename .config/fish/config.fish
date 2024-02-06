@@ -31,8 +31,17 @@ starship init fish | source
 #GIT bare repository
 
 alias dfbu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+#Yazi Alias
 alias yazi='/home/ehsan/yazi/target/release/yazi'
+
 #----------------- ALIASES END ---------------
+
+#----------------- DEFAULTS ------------------
+
+export EDITOR=nvim
+
+
 
 
 end
