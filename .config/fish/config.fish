@@ -9,6 +9,12 @@ set PATH /home/ehsan/.local/bin $PATH
 #-----------------Paths end ---------------
 
 
+#---------------DENO-----------------------
+export DENO_INSTALL="/home/ehsan/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+#------------DENO END ---------------------
+
+
 #------------------VI MODE-----------------
 function fish_user_key_bindings
     # Execute this once per mode that emacs bindings should be used in
