@@ -38,8 +38,6 @@ starship init fish | source
 
 alias dfbu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-#Yazi Alias
-alias yazi='/home/ehsan/yazi/target/release/yazi'
 
 #----------------- ALIASES END ---------------
 
