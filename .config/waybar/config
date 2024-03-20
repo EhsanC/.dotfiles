@@ -5,7 +5,7 @@
     // Archived modules
     // "custom/gpu", "bluetooth",  "custom/weather", "temperature", "sway/window"
     // Choose the order of the modules
-    "modules-left": [ "clock", "sway/language", "custom/scratchpad-indicator", "custom/pacman", "sway/mode", "idle_inhibitor", "custom/media"],
+    "modules-left": [ "clock", "idle_inhibitor"],
     "modules-center": ["sway/workspaces"],
     "modules-right": [ "custom/cpugovernor", "cpu", "temperature", "custom/gpu", "pulseaudio", "bluetooth", "network", "tray"],
     // Modules configuration
