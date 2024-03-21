@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": [ "clock", "idle_inhibitor"],
     "modules-center": ["sway/workspaces"],
-    "modules-right": [ "custom/cpugovernor", "cpu", "temperature", "custom/gpu", "pulseaudio", "bluetooth", "network", "tray"],
+    "modules-right": [ "custom/cpugovernor", "cpu", "temperature", "custom/gpu", "pulseaudio", "bluetooth", "battery", "network", "tray"],
     // Modules configuration
     "sway/workspaces": {
         "disable-scroll": true,
