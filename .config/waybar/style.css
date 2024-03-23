@@ -69,7 +69,7 @@
 #waybar {
     background: @bg;
     color: @light;
-    font-family: "Cantarell", "Font Awesome 5 Pro";
+    font-family:  "mononoki nerd font", "Cantarell", "Font Awesome 5 Pro";
     font-size: 12px;
     font-weight: bold;
 }
@@ -91,10 +91,6 @@
 #tray,
 #backlight,
 #language,
-#custom-cpugovernor {
-    padding-left: 0.6em;
-    padding-right: 0.6em;
-}
 
 /* Each module that should blink */
 #mode,
@@ -104,6 +100,7 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    padding: 0 0.6em;
 }
 
 /* Each critical module */
