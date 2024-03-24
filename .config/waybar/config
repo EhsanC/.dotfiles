@@ -5,8 +5,8 @@
     // Archived modules
     // "custom/gpu", "bluetooth",  "custom/weather", "temperature", "sway/window"
     // Choose the order of the modules
-    "modules-left": [ "clock", "idle_inhibitor"],
-    "modules-center": ["sway/workspaces"],
+    "modules-left": [ "idle_inhibitor", "hyprland/workspaces"],
+    "modules-center": ["clock"],
     "modules-right": [ "pulseaudio", "bluetooth", "battery", "network", "tray"],
     // Modules configuration
     "sway/workspaces": {
