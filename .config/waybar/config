@@ -5,9 +5,9 @@
     // Archived modules
     // "custom/gpu", "bluetooth",  "custom/weather", "temperature", "sway/window"
     // Choose the order of the modules
-    "modules-left": ["custom/pacman", "idle_inhibitor", "hyprland/workspaces"],
+    "modules-left": ["custom/wofi", "custom/pacman", "idle_inhibitor", "hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "pulseaudio", "bluetooth", "battery", "network", "tray"],
+    "modules-right": ["cpu", "pulseaudio", "bluetooth", "battery", "network", "tray","custom/wlogout"],
     // Modules configuration
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -76,7 +76,7 @@
         "format": "  {:%H:%M   %e %b}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "today-format": "<b>{}</b>",
-        "on-click": "gnome-calendar"
+        "on-click": "flatpak run org.gnome.Calendar"
     },
     "cpu": {
         "interval": "1",      
@@ -145,6 +145,17 @@
         "exec": "curl 'https://wttr.in/?format=1'",
         "interval": 3600
     },
+
+    //"custom/wofi": {
+    //	"format": "󰹯",
+    //	"on-click": "wofi --show drun --allow-images -l top_left -W 500 -H 700" 
+    //  },
+
+    "custom/wlogout": {
+	    "format": "⏻",
+	    "on-click" : "wlogout",
+    },
+
     "custom/gpu": {
       "exec": "$HOME/.config/waybar/custom_modules/custom-gpu.sh",
       "return-type": "json",
