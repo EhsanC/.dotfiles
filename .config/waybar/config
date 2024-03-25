@@ -5,11 +5,11 @@
     // Archived modules
     // "custom/gpu", "bluetooth",  "custom/weather", "temperature", "sway/window"
     // Choose the order of the modules
-    "modules-left": [ "idle_inhibitor", "hyprland/workspaces"],
+    "modules-left": ["custom/pacman", "idle_inhibitor", "hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": [ "pulseaudio", "bluetooth", "battery", "network", "tray"],
+    "modules-right": ["cpu", "pulseaudio", "bluetooth", "battery", "network", "tray"],
     // Modules configuration
-    "sway/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "format": "{icon}",
@@ -36,23 +36,23 @@
         "format": "{icon}",
         // "format-alt": "{status}",
         "format-icons": {
-            "enabled": "",
-            "disabled": ""
+            "enabled": "󰂯",
+            "disabled": "󰂲"
         },
         "on-click": "blueberry"
     },    
     "battery": {
-        "format": "<span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}% - {time}",
+        "format": "<span>{icon}</span>  {capacity}% - {time}",
         "format-icons": ["", "", "", "", ""],
         "format-time": "{H}h{M}m",
-        "format-charging": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}% - {time}",
-        "format-full": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon}</span>  Charged",
+        "format-charging": "<span></span>  <span>{icon}</span>  {capacity}% - {time}",
+        "format-full": "<span></span>  <span>{icon}</span>  Charged",
         "interval": 30,
         "states": {
             "warning": 25,
             "critical": 10
         },
-        "tooltip": false,
+        "tooltip": true,
         "on-click": "2"
     },
     "sway/language": {
@@ -63,8 +63,8 @@
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
-            "activated": "",
-            "deactivated": ""
+            "activated": "",
+            "deactivated": ""
         },
         "tooltip": "true"
     },
@@ -80,11 +80,11 @@
     },
     "cpu": {
         "interval": "1",      
-        "format": "  {max_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
-        "max-length": 13,
+        "format": "  {max_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
+        "max-length": 50,
         "min-length": 13,
         "on-click": "kitty -e htop --sort-key PERCENT_CPU",
-        "tooltip": false
+        "tooltip": true
     },
     "temperature": {
         //"thermal-zone": 1,
@@ -131,11 +131,12 @@
         "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
     },
     "custom/pacman": {
-        "format": "<big>􏆲</big>  {}",
+        //"format": "<big>􏆲</big>  {}",
+        "format": "󰣇  {}",
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // # of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "kitty -e 'yay'; pkill -SIGRTMIN+8 waybar", // update system
+        "on-click": "kitty -e 'paru'; pkill -SIGRTMIN+8 waybar", // update system
         "signal": 8,
         "max-length": 5,
         "min-length": 3

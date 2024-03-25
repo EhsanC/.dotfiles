@@ -69,7 +69,7 @@
 #waybar {
     background: @bg;
     color: @light;
-    font-family:  "mononoki nerd font", "Cantarell", "Font Awesome 5 Pro";
+    font-family: "mononoki nerd font, regular", "Cantarell", "Font Awesome 5 Pro";
     font-size: 12px;
     font-weight: bold;
 }
