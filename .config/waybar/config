@@ -8,7 +8,9 @@
     "modules-left": ["custom/wofi", "custom/pacman", "idle_inhibitor", "hyprland/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["cpu", "pulseaudio", "bluetooth", "battery", "network", "tray","custom/wlogout"],
+
     // Modules configuration
+    
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
