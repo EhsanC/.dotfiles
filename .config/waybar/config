@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/wofi", "custom/pacman", "idle_inhibitor", "hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "pulseaudio", "bluetooth", "battery", "network", "tray","custom/wlogout"],
+    "modules-right": ["cpu", "pulseaudio", "battery", "network", "tray","custom/wlogout"],
 
     // Modules configuration
     
@@ -33,16 +33,18 @@
         "max-length": 50, 
         "tooltip": false
     },
-    "bluetooth": {
-        "interval": 30,
-        "format": "{icon}",
-        // "format-alt": "{status}",
-        "format-icons": {
-            "enabled": "󰂯",
-            "disabled": "󰂲"
-        },
-        "on-click": "blueberry"
-    },    
+
+    //"bluetooth": {
+    //      "interval": 30,
+    //      "format": "{icon}",
+    //  //  "format-alt": "{status}",
+    //     "format-icons": {
+    // "enabled": "󰂯",
+    //         "disabled": "󰂲"
+    //     },
+    //     "on-click": "blueberry"
+    // },    
+
     "battery": {
         "format": "<span>{icon}</span>  {capacity}% - {time}",
         "format-icons": ["", "", "", "", ""],
