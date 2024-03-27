@@ -13,10 +13,10 @@ ignore-timeout=1
 font= mononoki nerd font 14
 
 [urgency=low]
-border-color=#cccccc
+border-color=#88c0d0
 
 [urgency=normal]
-border-color=#d08770
+border-color=#a3be8c
 
 [urgency=high]
 border-color=#bf616a

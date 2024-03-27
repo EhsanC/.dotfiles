@@ -33,7 +33,6 @@ starship init fish | source
 
 #----------------- ALIASES --------------------
 
-
 #GIT bare repository
 
 alias dfbu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
