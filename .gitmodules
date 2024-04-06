@@ -4,3 +4,6 @@
 [submodule "/home/ehsan/.zshplugins/zsh-syntax-highlighting"]
 	path = /home/ehsan/.zshplugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "/home/ehsan/.zshplugins/zsh-autocomplete"]
+	path = /home/ehsan/.zshplugins/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete.git
