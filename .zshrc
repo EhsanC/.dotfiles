@@ -7,20 +7,38 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 
 
-#------------ MY CUSTOM CONFIG ------------------------
-#
-#
-#
-#
-#
-#
-#
-# Aliases
+#======================== MY CUSTOM CONFIG ===========================#
+
+# ------------------ PLUGINS ----------------------
+
+# ZSH-AUTOCOMPLETE
+source /home/ehsan/.zshplugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+
+
+
+
+# ZSH-SYNTAX-HIGHLIGHTING (MAKE SURE TO KEEP THIS AT THE END OF ALL PLUGINS)
+source /home/ehsan/.zshplugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# ----------------- PLUGINS END -------------------
+
+# ------------------ ALIASES ----------------------
+
+# Alias : VIM to NVIM
+#alias vim = "nvim"
+
+# Alias for DOTFILES backup (dfbu)
 alias dfbu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+#CD to blender addons folder
+alias blenderconf="cd .config/blender/"
 
 
-#---------- MY CUSTOM CONFIG END ----------------------
+# --------------- ALIASES END ---------------------
+
+#====================== MY CUSTOM CONFIG END =========================#
 
 
 
@@ -31,5 +49,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-
+# Enable Starship Prompt
 eval "$(starship init zsh)"
