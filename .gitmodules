@@ -1,6 +1,3 @@
-[submodule ".zshplugins/zsh-syntax-highlighting"]
-	path = .zshplugins/zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "/home/ehsan/.config/nvim/lua/custom"]
 	path = /home/ehsan/.config/nvim/lua/custom
 	url = git@github.com:EhsanC/neovim-config.git
