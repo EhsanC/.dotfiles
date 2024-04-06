@@ -14,8 +14,8 @@ bindkey -v
 # ZSH-AUTOCOMPLETE
 source /home/ehsan/.zshplugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-
-
+# ZSH-AUTOSUGGESTIONS
+source /home/ehsan/.zshplugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
 # ZSH-SYNTAX-HIGHLIGHTING (MAKE SURE TO KEEP THIS AT THE END OF ALL PLUGINS)

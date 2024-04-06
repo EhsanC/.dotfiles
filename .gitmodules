@@ -7,3 +7,6 @@
 [submodule "/home/ehsan/.zshplugins/zsh-autocomplete"]
 	path = /home/ehsan/.zshplugins/zsh-autocomplete
 	url = https://github.com/marlonrichert/zsh-autocomplete.git
+[submodule "/home/ehsan/.zshplugins/zsh-autosuggestions"]
+	path = /home/ehsan/.zshplugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
