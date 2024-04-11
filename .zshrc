@@ -68,3 +68,5 @@ compinit
 
 # Enable Starship Prompt
 eval "$(starship init zsh)"
+
+export PATH=$PATH:/home/ehsan/.spicetify
