@@ -21,8 +21,6 @@ source /home/ehsan/.zshplugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # ZSH-SYNTAX-HIGHLIGHTING (MAKE SURE TO KEEP THIS AT THE END OF ALL PLUGINS)
 source /home/ehsan/.zshplugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# CATPUCCIN THEME FOR SYNTAX HIGHLIGHTING
-source /home/ehsan/.zshplugins/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 # ----------------- PLUGINS END -------------------
 
