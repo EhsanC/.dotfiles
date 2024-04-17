@@ -1,0 +1,12 @@
+Flatseal	com.github.tchx84.Flatseal	2.1.2	stable	system
+NewsFlash	io.gitlab.news_flash.NewsFlash	3.2.0	stable	system
+Freedesktop Platform	org.freedesktop.Platform	23.08.16	23.08	system
+Mesa	org.freedesktop.Platform.GL.default	24.0.5	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.0.5	23.08-extra	system
+Intel	org.freedesktop.Platform.VAAPI.Intel		23.08	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
+openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
+GNOME Application Platform version 46	org.gnome.Platform		46	system
+KDE Application Platform	org.kde.Platform		6.6	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	8.0.1	stable	system
+qpwgraph	org.rncbc.qpwgraph	0.6.3	stable	system
