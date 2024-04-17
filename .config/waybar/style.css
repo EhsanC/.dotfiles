@@ -108,9 +108,10 @@ window#waybar.hidden {
 
 #tray {
 	padding: 0px 15px 0px 15px;
-	background-color: @mauve;
+	background-color: @surface1;
 	margin: 7px 15px 10px 0px;
 	border-radius: 8px;
+	border: 1px solid @subtext1;
 }
 
 @keyframes blink {
