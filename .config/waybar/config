@@ -4,7 +4,7 @@
     "position": "top",
     "output": "eDP-1",
     "spacing": 7,
-    "modules-left": ["custom/launcher", "cpu", "temperature", "backlight", "custom/dunst"],
+    "modules-left": ["custom/launcher", "cpu", "temperature", "backlight"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["pulseaudio", "network", "battery", "clock", "custom/powermenu","tray"],
 
@@ -28,9 +28,13 @@
         }
     },
     
+    "tray":{
+	"spacing" : 5
+    },
+
     "custom/launcher": {
         "interval": "once",
-        "format": "",
+        "format": "",
         "on-click": "wofi --show drun --columns 2 -I -s ~/.config/wofi/style.css",
         "tooltip": false
       },
@@ -58,12 +62,6 @@
         "on-scroll-down": "brightnessctl set +10%"
     },
 
-    "custom/dunst": {
-        "exec": "~/.config/waybar/scripts/dunst.sh",
-        "on-click": "dunstctl set-paused toggle",
-        "restart-interval": 1,
-        "tooltip": false
-    },
 
     "pulseaudio": {
         "format": "{icon}  {volume}%",
@@ -83,13 +81,19 @@
 	    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
     },
 
-    "network": {
-        "format-wifi": "直  {signalStrength}%",
-        "format-ethernet": " wired",
-        "format-disconnected": "睊 ",
-        "on-click": "sh ~/.config/wofi/wifimenu.sh"
+ "network": {
+        // "interface": "wlan0", // (Optional) To force the use of this interface,
+        //"format-wifi": "  {essid}",
+        "format-wifi": " ",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "on-click-right": "nm-applet",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "family": "ipv4",
+        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}  {bandwidthDownBits}"
     },
-
     "battery": {
       "bat": "BAT0",
       "adapter": "ADP0",
@@ -116,7 +120,7 @@
 
     "custom/powermenu": {
         "format": "",
-        "on-click": "bash ~/.config/wofi/powermenu.sh",
+        "on-click": "wlogout",
         "tooltip": false
     }
 }
