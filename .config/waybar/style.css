@@ -12,7 +12,8 @@
 }
 
 window#waybar {
-  background-color: @crust;
+  background-color: transparent;
+  /*background-color: @crust;*/
   color: @text;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -53,7 +54,6 @@ window#waybar.hidden {
 #backlight,
 #network,
 #pulseaudio,
-#custom-dunst,
 #custom-powermenu{
   padding: 0px 20px;
   margin: 7px 0px 10px 0px;
@@ -81,10 +81,6 @@ window#waybar.hidden {
   background-color: @sapphire;
 }
 
-#custom-dunst {
-  padding: 0px 20px 0px 13px;
-  background-color: @sky;
-}
 
 #pulseaudio {
   padding: 0px 20px 0px 17px;
@@ -92,7 +88,7 @@ window#waybar.hidden {
 }
 
 #network {
-  padding: 0px 15px 0px 20px;
+  padding: 0px 15px 0px 15px;
   background-color: @green;
 }
 
@@ -106,8 +102,15 @@ window#waybar.hidden {
 
 #custom-powermenu {
   padding: 0px 25px 0px 20px;
-  margin: 7px 20px 10px 0px;
+  margin: 7px 2px 10px 0px;
   background-color: @maroon;
+}
+
+#tray {
+	padding: 0px 15px 0px 15px;
+	background-color: @mauve;
+	margin: 7px 15px 10px 0px;
+	border-radius: 8px;
 }
 
 @keyframes blink {
