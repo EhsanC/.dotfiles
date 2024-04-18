@@ -1,0 +1,26 @@
+* {
+    background-image: none;
+    font-size: ${fntSize}px;
+}
+
+@import "$HOME/.config/waybar/colors/mochca.css;
+
+window {
+    background-color: transparent;
+}
+
+button {
+    color: ${BtnCol};
+    background-color: @main-bg;
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    animation: gradient_f 20s ease-in infinite;
+}
+
