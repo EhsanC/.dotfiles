@@ -16,7 +16,6 @@ button {
     border-color: black;
 	text-decoration-color: #FFFFFF;
     color: #FFFFFF;
-	/*background-color: #1E1E1E;*/
 	background-color: @surface0;
 	border-style: solid;
 	border-width: 1px;
@@ -25,9 +24,11 @@ button {
 	background-size: 25%;
 }
 
+/*button:focus, button:active, button:hover {*/
 button:focus, button:active, button:hover {
 	background-color: @red;
 	outline-style: none;
+	background-size: 30%;
 }
 
 #lock {
