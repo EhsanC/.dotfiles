@@ -54,6 +54,7 @@ window#waybar.hidden {
 #backlight,
 #network,
 #pulseaudio,
+#power-profiles-daemon,
 #custom-powermenu{
   padding: 0px 20px;
   margin: 7px 0px 10px 0px;
@@ -94,6 +95,23 @@ window#waybar.hidden {
 
 #battery {
   background-color: @yellow;
+}
+
+#power-profiles-daemon {
+/*	padding-right: 15px;*/
+}
+
+#power-profiles-daemon.performance {
+	background-color: @red;
+}
+
+#power-profiles-daemon.balanced {
+	background-color: @yellow;
+}
+
+#power-profiles-daemon.power-saver {
+	background-color: @green;
+
 }
 
 #clock {
