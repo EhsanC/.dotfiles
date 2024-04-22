@@ -32,17 +32,17 @@
 	"format": "{icon}",
 	"icon-size": 14,
 	"tooltip-format": "{title}",
+	"icon-theme": "Papirus-Dark",
 	"on-click": "activate",
 	"on-click-middle": "close",
 	"ignore-list": [
-	    "kitty"
+
 	],
 	"app_ids-mapping": {
-		"firefoxdeveloperedition": "firefox-developer-edition"
+
 	},
 	"rewrite": {
-		"Firefox Web Browser": "Firefox",
-		"Foot Server": "Terminal"
+
 	}
 },
 
