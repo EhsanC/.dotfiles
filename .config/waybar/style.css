@@ -64,11 +64,10 @@ window#waybar.hidden {
 #backlight,
 #network,
 #pulseaudio,
-#power-profiles-daemon,
 #custom-powermenu{
   padding: 0px 20px;
   margin: 7px 0px 10px 0px;
-	border-radius: 8px;
+  border-radius: 8px;
   color: @crust;
 }
 
@@ -108,7 +107,10 @@ window#waybar.hidden {
 }
 
 #power-profiles-daemon {
-/*	padding-right: 15px;*/
+  padding: 0px 25px 0px 15px;
+  margin: 7px 0px 10px 0px;
+  border-radius: 8px;
+  color: @crust;
 }
 
 #power-profiles-daemon.performance {
