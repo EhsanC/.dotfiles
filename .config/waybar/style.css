@@ -26,6 +26,16 @@ window#waybar.hidden {
   opacity: 0.2;
 }
 
+#taskbar {
+/*	color: @text;
+	background-color: @surface1;
+	margin: 0px 2px 2px 0px;
+	padding: 0px 0px 0px 2px;
+	border-radius: 8px;
+	border: 1px solid @subtext1;
+*/
+}
+
 #workspaces button {
   color: @text;
   background: @background3;
