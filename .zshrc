@@ -35,7 +35,6 @@ alias dfbu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 #CD to blender addons folder
 alias blenderconf="cd .config/blender/"
 
-
 # --------------- ALIASES END ---------------------
 
 
