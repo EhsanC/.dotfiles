@@ -57,6 +57,7 @@ window#waybar.hidden {
 }
 
 #custom-launcher,
+#idle_inhibitor,
 #clock,
 #battery,
 #cpu,
@@ -65,7 +66,7 @@ window#waybar.hidden {
 #network,
 #pulseaudio,
 #custom-powermenu{
-  padding: 0px 20px;
+  padding: 0px 12px 0px 7px;
   margin: 7px 0px 10px 0px;
   border-radius: 8px;
   color: @crust;
@@ -74,9 +75,19 @@ window#waybar.hidden {
 #window,
 
 #custom-launcher {
-  padding: 0px 25px 0px 20px;
+  padding: 0px 15px 0px 9px;
   margin: 7px 0px 10px 20px;
   background-color: @mauve;
+}
+
+#idle_inhibitor {
+  padding: 0px 12px 0px 7px;
+  margin: 7px 2px 10px 0px;
+  background-color: @maroon;
+}
+
+#idle_inhibitor.deactivated {
+  background-color: @surface1;
 }
 
 #cpu {
@@ -131,7 +142,8 @@ window#waybar.hidden {
 }
 
 #custom-powermenu {
-  padding: 0px 25px 0px 20px;
+  padding: 0px 12px 0px 7px;
+  margin: 7px 2px 10px 0px;
   margin: 7px 2px 10px 0px;
   background-color: @maroon;
 }

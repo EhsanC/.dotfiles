@@ -4,7 +4,7 @@
     "position": "top",
     "output": "eDP-1",
     "spacing": 7,
-    "modules-left": ["custom/launcher", "cpu", "temperature", "backlight","wlr/taskbar" ],
+    "modules-left": ["custom/launcher","idle_inhibitor", "cpu", "temperature", "backlight","wlr/taskbar" ],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["pulseaudio", "network","power-profiles-daemon", "battery", "clock", "custom/powermenu","tray"],
 
@@ -26,6 +26,15 @@
             "9": [],
             "10": []
         }
+    },
+
+    "idle_inhibitor": {
+	    "format": "{icon}",
+	    "format-icons": {
+		    "activated": "",
+		    "deactivated": ""
+	    },
+	    "tooltip": "true"
     },
     
 "wlr/taskbar": {
