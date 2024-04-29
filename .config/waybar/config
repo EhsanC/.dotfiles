@@ -69,6 +69,7 @@
     "cpu": {
       "interval": 10,
       "format": "  {usage}%",
+      "on-click": "kitty -e htop --sort-key PERCENT_CPU",
       "max-length": 10
     },
 
