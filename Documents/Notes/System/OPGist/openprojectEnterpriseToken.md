@@ -16,3 +16,20 @@ docker build -t openproject:14
 ```
 
 
+Alternatively (and more successfully) follow these steps:
+
+1- Copy the file "enterprise_token.rb" in the same directory of the "docker-compose.yml" file.
+2- Modify your "docker-compose.yml" :
+add the follower code at line 31 :
+- "./enterprise_token.rb:/app/app/models/enterprise_token.rb"
+after :
+volumes:
+- "${OPDATA:-opdata}:/var/openproject/assets
+
+3- finally execute the docker compose command :
+OPENPROJECT_HTTPS=false PORT=8080 docker compose up -d
+
+and all things will be fine.
+
+
+
