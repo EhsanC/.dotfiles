@@ -1,0 +1,9 @@
+catppuccin-gtk-theme-mocha
+cava
+hyprlock-git
+papirus-folders-catppuccin-git
+paru
+paru-debug
+portmaster-stub-bin
+snapd
+wlogout
