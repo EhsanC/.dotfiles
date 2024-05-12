@@ -12,6 +12,7 @@ docker
 docker-compose
 dunst
 efibootmgr
+fastfetch
 fd
 ffmpegthumbnailer
 file-roller
@@ -23,6 +24,7 @@ fzf
 gdb
 gimp
 git
+gnome-disk-utility
 gst-plugin-pipewire
 htop
 hyprland
@@ -42,7 +44,6 @@ linux-firmware
 linux-lts
 man-db
 nano
-neofetch
 neovim
 network-manager-applet
 networkmanager
