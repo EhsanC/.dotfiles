@@ -5,57 +5,64 @@
   </head>
   <body>
     <outline title="Architecture" text="Architecture">
-      <outline type="rss" xmlUrl="http://parametricmonkey.com/feed/" text="Parametric Monkey" htmlUrl="https://parametricmonkey.com/feed/" title="Parametric Monkey" />
-      <outline xmlUrl="http://feeds.feedburner.com/DesignMilkArchitecture" type="rss" htmlUrl="https://design-milk.com/category/architecture/feed/" title="Design MilkArchitecture, Architectural Designs, and House Designs | Design Milk" text="Design MilkArchitecture, Architectural Designs, and House Designs | Design Milk" />
-      <outline text="Journal" type="rss" htmlUrl="https://architizer.com/feed/" xmlUrl="http://www.architizer.com/blog/feed/" title="Journal" />
-      <outline text="Dezeen" title="Dezeen" type="rss" xmlUrl="http://feeds.feedburner.com/dezeen" htmlUrl="https://www.dezeen.com/?feed=dezeenfeed" />
-      <outline htmlUrl="http://architecturenow.co.nz/rss.xml" title="Architecture Now Latest" xmlUrl="http://architecturenow.co.nz/rss.xml" text="Architecture Now Latest" type="rss" />
-      <outline xmlUrl="http://www.dezeen.com/category/interiors/feed/" htmlUrl="https://www.dezeen.com/interiors/feed/" title="Interiors – Dezeen" type="rss" text="Interiors – Dezeen" />
-      <outline htmlUrl="https://www.architectureartdesigns.com/feed/" xmlUrl="http://www.architectureartdesigns.com/feed/" title="Architecture Art Designs" type="rss" text="Architecture Art Designs" />
-      <outline title="designboom | architecture &amp; design magazine" text="designboom | architecture &amp; design magazine" type="rss" xmlUrl="http://www.designboom.com/feed/" htmlUrl="https://www.designboom.com/feed/" />
-      <outline title="Architectural Visualization" text="Architectural Visualization" xmlUrl="http://architecture-drawings.tumblr.com/rss" htmlUrl="https://architecture-drawings.tumblr.com/" type="rss" />
-      <outline xmlUrl="http://www.home-designing.com/feed" text="Interior Design Ideas" type="rss" htmlUrl="https://www.home-designing.com/feed" title="Interior Design Ideas" />
-      <outline htmlUrl="https://medium.com/tag/product-design/latest?source=rss------product_design-5" title="Product Design on Medium" xmlUrl="https://medium.com/feed/tag/product-design" type="rss" text="Product Design on Medium" />
-      <outline title="Parametric Architecture" xmlUrl="https://parametric-architecture.com/feed/" type="rss" htmlUrl="https://parametric-architecture.com/feed/" text="Parametric Architecture" />
-      <outline text="Design MilkDesign Milk" htmlUrl="https://design-milk.com/feed/" type="rss" title="Design MilkDesign Milk" xmlUrl="http://feeds.feedburner.com/design-milk" />
-      <outline text="ArchitectureAU – News" title="ArchitectureAU – News" xmlUrl="http://architectureau.com/news/rss.xml" htmlUrl="https://architectureau.com/news/rss.xml" type="rss" />
-      <outline htmlUrl="https://www.aldaily.com/" text="Arts &amp; Letters Daily" xmlUrl="http://www.aldaily.com/feed/" title="Arts &amp; Letters Daily" type="rss" />
-      <outline xmlUrl="http://www.demilked.com/category/industrial-design-2/feed/" text="Industrial Design | DeMilked |" type="rss" title="Industrial Design | DeMilked |" htmlUrl="https://www.demilked.com/category/industrial-design-2/feed/" />
-      <outline title="Industrial Design – Beautiful Life | online magazine" htmlUrl="https://www.beautifullife.info/industrial-design/feed/" text="Industrial Design – Beautiful Life | online magazine" type="rss" xmlUrl="http://www.beautifullife.info/category/industrial-design/feed/" />
-      <outline text="Skyscrapers" type="rss" xmlUrl="http://skyscraper.tumblr.com/rss" htmlUrl="https://skyscraper.tumblr.com/" title="Skyscrapers" />
-      <outline type="rss" xmlUrl="http://www.archiscene.net/feed/" title="Archiscene – Your Daily Architecture &amp; Design Update" htmlUrl="https://www.archiscene.net/feed/" text="Archiscene – Your Daily Architecture &amp; Design Update" />
-      <outline xmlUrl="http://www.designboom.com/architecture/feed/" htmlUrl="https://www.designboom.com/architecture/feed/" text="architecture archives | designboom | architecture &amp; design magazine" type="rss" title="architecture archives | designboom | architecture &amp; design magazine" />
-      <outline xmlUrl="http://www.buildingsmart.org/feed/" htmlUrl="http://www.buildingsmart.org/feed/" text="buildingSMART International" type="rss" title="buildingSMART International" />
-      <outline type="rss" title="Houzz" htmlUrl="https://www.houzz.com/" xmlUrl="http://www.houzz.com/getGalleries/featured/out-rss" text="Houzz" />
-      <outline text="homify magazine" title="homify magazine" htmlUrl="https://www.homify.co.uk/" type="rss" xmlUrl="https://www.homify.co.uk/magazine.rss" />
-      <outline type="rss" xmlUrl="http://industrialdesigners.tumblr.com/rss" text="Industrial Design (for designers)" htmlUrl="https://industrialdesigners.tumblr.com/" title="Industrial Design (for designers)" />
-      <outline xmlUrl="http://www.archdaily.com/feed/" htmlUrl="https://www.archdaily.com/" type="rss" text="ArchDaily" title="ArchDaily" />
-      <outline title="Architectural Renderings and Illustrations" type="rss" htmlUrl="https://bobby-parker.com/architectural-rendering-blog/" text="Architectural Renderings and Illustrations" xmlUrl="http://feeds.feedburner.com/Blog-BobbyWParker" />
-      <outline type="rss" title="OSArch" text="OSArch" htmlUrl="https://osarch.org/feed/" xmlUrl="https://osarch.org/feed/" />
-      <outline title="Design + Decorate - ELLE Decor" type="rss" xmlUrl="http://www.elledecor.com/rss/design-decorate/" htmlUrl="https://www.elledecor.com/" text="Design + Decorate - ELLE Decor" />
-      <outline xmlUrl="http://feeds.feedburner.com/Interiorzine" type="rss" text="InteriorZine.com" htmlUrl="https://www.interiorzine.com/feed/" title="InteriorZine.com" />
-      <outline xmlUrl="http://designlike.com/feed/" htmlUrl="https://designlike.com/feed/" text="Interior Design, Design News and Architecture Trends" title="Interior Design, Design News and Architecture Trends" type="rss" />
-      <outline htmlUrl="https://www.dezeen.com/architecture/feed/" text="Architecture – Dezeen" title="Architecture – Dezeen" xmlUrl="http://www.dezeen.com/category/architecture/feed/" type="rss" />
-      <outline type="rss" htmlUrl="https://www.architecturaldigest.in/" text="Architectural Digest | India" xmlUrl="https://www.architecturaldigest.in/feed/rss" title="Architectural Digest | India" />
-      <outline text="Interiors | CONTEMPORIST" title="Interiors | CONTEMPORIST" xmlUrl="http://www.contemporist.com/category/interiors/feed/" htmlUrl="https://www.contemporist.com/category/interiors/feed/" type="rss" />
-      <outline htmlUrl="https://www.designpataki.com/feed/" title="Design Pataki" type="rss" text="Design Pataki" xmlUrl="https://www.designpataki.com/feed/" />
-      <outline text="Architectural Review" xmlUrl="https://www.architectural-review.com/feed" htmlUrl="https://www.architectural-review.com/feed" title="Architectural Review" type="rss" />
+      <outline type="rss" htmlUrl="https://www.designpataki.com/feed/" title="Design Pataki" xmlUrl="https://www.designpataki.com/feed/" text="Design Pataki" />
+      <outline htmlUrl="http://architecturenow.co.nz/rss.xml" type="rss" title="Architecture Now Latest" xmlUrl="http://architecturenow.co.nz/rss.xml" text="Architecture Now Latest" />
+      <outline text="homify magazine" htmlUrl="https://www.homify.co.uk/" title="homify magazine" type="rss" xmlUrl="https://www.homify.co.uk/magazine.rss" />
+      <outline xmlUrl="http://industrialdesigners.tumblr.com/rss" htmlUrl="https://industrialdesigners.tumblr.com/" text="Industrial Design (for designers)" type="rss" title="Industrial Design (for designers)" />
+      <outline htmlUrl="https://www.designboom.com/feed/" type="rss" xmlUrl="http://www.designboom.com/feed/" text="designboom | architecture &amp; design magazine" title="designboom | architecture &amp; design magazine" />
+      <outline title="Architectural Visualization" text="Architectural Visualization" xmlUrl="http://architecture-drawings.tumblr.com/rss" type="rss" htmlUrl="https://architecture-drawings.tumblr.com/" />
+      <outline xmlUrl="http://designlike.com/feed/" htmlUrl="https://designlike.com/feed/" text="Interior Design, Design News and Architecture Trends" type="rss" title="Interior Design, Design News and Architecture Trends" />
+      <outline xmlUrl="http://www.contemporist.com/category/interiors/feed/" htmlUrl="https://www.contemporist.com/category/interiors/feed/" type="rss" text="Interiors | CONTEMPORIST" title="Interiors | CONTEMPORIST" />
+      <outline text="Interior Design Ideas" type="rss" title="Interior Design Ideas" htmlUrl="https://www.home-designing.com/feed" xmlUrl="http://www.home-designing.com/feed" />
+      <outline htmlUrl="http://www.buildingsmart.org/feed/" title="buildingSMART International" type="rss" text="buildingSMART International" xmlUrl="http://www.buildingsmart.org/feed/" />
+      <outline text="Dezeen" type="rss" htmlUrl="https://www.dezeen.com/?feed=dezeenfeed" xmlUrl="http://feeds.feedburner.com/dezeen" title="Dezeen" />
+      <outline type="rss" title="Arts &amp; Letters Daily" xmlUrl="http://www.aldaily.com/feed/" text="Arts &amp; Letters Daily" htmlUrl="https://www.aldaily.com/" />
+      <outline xmlUrl="http://parametricmonkey.com/feed/" text="Parametric Monkey" title="Parametric Monkey" type="rss" htmlUrl="https://parametricmonkey.com/feed/" />
+      <outline title="Design MilkDesign Milk" text="Design MilkDesign Milk" type="rss" htmlUrl="https://design-milk.com/feed/" xmlUrl="http://feeds.feedburner.com/design-milk" />
+      <outline text="Product Design on Medium" type="rss" htmlUrl="https://medium.com/tag/product-design/latest?source=rss------product_design-5" title="Product Design on Medium" xmlUrl="https://medium.com/feed/tag/product-design" />
+      <outline xmlUrl="http://www.designboom.com/architecture/feed/" type="rss" title="architecture archives | designboom | architecture &amp; design magazine" text="architecture archives | designboom | architecture &amp; design magazine" htmlUrl="https://www.designboom.com/architecture/feed/" />
+      <outline xmlUrl="http://www.dezeen.com/category/architecture/feed/" type="rss" text="Architecture – Dezeen" htmlUrl="https://www.dezeen.com/architecture/feed/" title="Architecture – Dezeen" />
+      <outline htmlUrl="https://skyscraper.tumblr.com/" title="Skyscrapers" text="Skyscrapers" xmlUrl="http://skyscraper.tumblr.com/rss" type="rss" />
+      <outline text="Furniture Fashion" type="rss" htmlUrl="https://furniturefashion.com/feed/" title="Furniture Fashion" xmlUrl="http://feeds.feedburner.com/FurnitureFashion" />
+      <outline title="Parametric Architecture" type="rss" text="Parametric Architecture" htmlUrl="https://parametric-architecture.com/feed/" xmlUrl="https://parametric-architecture.com/feed/" />
+      <outline text="Furniture | Design Idea &amp; Image Galleries on Dornob - Feed" type="rss" htmlUrl="https://dornob.com/design/furniture/feed/" xmlUrl="http://feeds.feedburner.com/dornob/furniture" title="Furniture | Design Idea &amp; Image Galleries on Dornob - Feed" />
+      <outline text="Design MilkArchitecture, Architectural Designs, and House Designs | Design Milk" htmlUrl="https://design-milk.com/category/architecture/feed/" xmlUrl="http://feeds.feedburner.com/DesignMilkArchitecture" type="rss" title="Design MilkArchitecture, Architectural Designs, and House Designs | Design Milk" />
+      <outline xmlUrl="http://feeds.feedburner.com/Interiorzine" text="InteriorZine.com" title="InteriorZine.com" htmlUrl="https://www.interiorzine.com/feed/" type="rss" />
+      <outline xmlUrl="https://osarch.org/feed/" text="OSArch" type="rss" htmlUrl="https://osarch.org/feed/" title="OSArch" />
+      <outline title="Industrial Design | DeMilked |" text="Industrial Design | DeMilked |" xmlUrl="http://www.demilked.com/category/industrial-design-2/feed/" type="rss" htmlUrl="https://www.demilked.com/category/industrial-design-2/feed/" />
+      <outline htmlUrl="https://www.architectureartdesigns.com/feed/" text="Architecture Art Designs" xmlUrl="http://www.architectureartdesigns.com/feed/" type="rss" title="Architecture Art Designs" />
+      <outline htmlUrl="https://www.dezeen.com/interiors/feed/" text="Interiors – Dezeen" title="Interiors – Dezeen" xmlUrl="http://www.dezeen.com/category/interiors/feed/" type="rss" />
+      <outline title="ArchDaily" htmlUrl="https://www.archdaily.com/" text="ArchDaily" type="rss" xmlUrl="http://www.archdaily.com/feed/" />
+      <outline type="rss" xmlUrl="https://www.architectural-review.com/feed" title="Architectural Review" htmlUrl="https://www.architectural-review.com/feed" text="Architectural Review" />
+      <outline title="Journal" text="Journal" xmlUrl="http://www.architizer.com/blog/feed/" htmlUrl="https://architizer.com/feed/" type="rss" />
+      <outline htmlUrl="https://www.archiscene.net/feed/" text="Archiscene – Your Daily Architecture &amp; Design Update" title="Archiscene – Your Daily Architecture &amp; Design Update" type="rss" xmlUrl="http://www.archiscene.net/feed/" />
+      <outline text="Architectural Renderings and Illustrations" htmlUrl="https://bobby-parker.com/architectural-rendering-blog/" xmlUrl="http://feeds.feedburner.com/Blog-BobbyWParker" type="rss" title="Architectural Renderings and Illustrations" />
+      <outline xmlUrl="http://www.houzz.com/getGalleries/featured/out-rss" text="Houzz" htmlUrl="https://www.houzz.com/" title="Houzz" type="rss" />
+      <outline text="Architectural Digest | India" htmlUrl="https://www.architecturaldigest.in/" title="Architectural Digest | India" type="rss" xmlUrl="https://www.architecturaldigest.in/feed/rss" />
+      <outline htmlUrl="https://www.beautifullife.info/industrial-design/feed/" title="Industrial Design – Beautiful Life | online magazine" xmlUrl="http://www.beautifullife.info/category/industrial-design/feed/" text="Industrial Design – Beautiful Life | online magazine" type="rss" />
+      <outline type="rss" htmlUrl="https://www.elledecor.com/" xmlUrl="http://www.elledecor.com/rss/design-decorate/" title="Design + Decorate - ELLE Decor" text="Design + Decorate - ELLE Decor" />
+      <outline title="ArchitectureAU – News" xmlUrl="http://architectureau.com/news/rss.xml" htmlUrl="https://architectureau.com/news/rss.xml" text="ArchitectureAU – News" type="rss" />
     </outline>
     <outline text="Linux" title="Linux">
-      <outline htmlUrl="https://www.omgubuntu.co.uk/feed" title="OMG! Ubuntu" text="OMG! Ubuntu" xmlUrl="https://omgubuntu.co.uk/feed" type="rss" />
-      <outline htmlUrl="https://itsfoss.com/" xmlUrl="https://itsfoss.com/rss/" text="It&apos;s FOSS" title="It&apos;s FOSS" type="rss" />
-      <outline text="OMG! Linux" type="rss" xmlUrl="https://www.omglinux.com/feed" htmlUrl="https://www.omglinux.com/feed/" title="OMG! Linux" />
+      <outline title="It&apos;s FOSS" type="rss" htmlUrl="https://itsfoss.com/" xmlUrl="https://itsfoss.com/rss/" text="It&apos;s FOSS" />
+      <outline htmlUrl="https://www.omgubuntu.co.uk/feed" text="OMG! Ubuntu" title="OMG! Ubuntu" type="rss" xmlUrl="https://omgubuntu.co.uk/feed" />
+      <outline htmlUrl="https://www.omglinux.com/feed/" text="OMG! Linux" type="rss" xmlUrl="https://www.omglinux.com/feed" title="OMG! Linux" />
     </outline>
     <outline title="Blender" text="Blender">
-      <outline htmlUrl="https://www.blender.org/feed/" text="blender.org" type="rss" xmlUrl="http://www.blender.org/feed/" title="blender.org" />
-      <outline type="rss" title="Blender 3D Architect" text="Blender 3D Architect" xmlUrl="http://feeds.feedburner.com/Blender3dArchitect" htmlUrl="https://www.blender3darchitect.com/feed/" />
-      <outline text="BlenderNation" title="BlenderNation" xmlUrl="http://www.blendernation.com/feed/" htmlUrl="https://www.blendernation.com/feed/" type="rss" />
+      <outline xmlUrl="http://feeds.feedburner.com/Blender3dArchitect" text="Blender 3D Architect" htmlUrl="https://www.blender3darchitect.com/feed/" title="Blender 3D Architect" type="rss" />
+      <outline title="blender.org" text="blender.org" type="rss" htmlUrl="https://www.blender.org/feed/" xmlUrl="http://www.blender.org/feed/" />
+      <outline type="rss" htmlUrl="https://www.blendernation.com/feed/" title="BlenderNation" xmlUrl="http://www.blendernation.com/feed/" text="BlenderNation" />
     </outline>
     <outline text="Web Design" title="Web Design">
-      <outline text="Web Designer Depot" htmlUrl="https://www.webdesignerdepot.com/" xmlUrl="http://feeds2.feedburner.com/webdesignerdepot" type="rss" title="Web Designer Depot" />
+      <outline type="rss" text="Web Designer Depot" xmlUrl="http://feeds2.feedburner.com/webdesignerdepot" htmlUrl="https://www.webdesignerdepot.com/" title="Web Designer Depot" />
     </outline>
     <outline text="Graphic Design" title="Graphic Design">
-      <outline htmlUrl="http://pixel77.com/feed/" xmlUrl="http://feeds.feedburner.com/Pixel77" type="rss" text="Graphic design magazine with tutorials, resources and inspiration." title="Graphic design magazine with tutorials, resources and inspiration." />
+      <outline text="Graphic design magazine with tutorials, resources and inspiration." type="rss" xmlUrl="http://feeds.feedburner.com/Pixel77" title="Graphic design magazine with tutorials, resources and inspiration." htmlUrl="http://pixel77.com/feed/" />
+    </outline>
+    <outline title="Science" text="Science">
+      <outline htmlUrl="https://www.nasa.gov/news-release/feed/" text="NASA" title="NASA" type="rss" xmlUrl="http://www.nasa.gov/rss/breaking_news.rss" />
+      <outline xmlUrl="http://www.sciencemag.org/rss/current.xml" title="Science" text="Science" type="rss" htmlUrl="https://www.science.org/journal/science" />
+      <outline text="NASA Image of the Day" xmlUrl="http://www.nasa.gov/rss/image_of_the_day.rss" type="rss" htmlUrl="https://www.nasa.gov/image-of-the-day/" title="NASA Image of the Day" />
     </outline>
   </body>
 </opml>
